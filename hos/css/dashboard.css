@@ -1,0 +1,95 @@
+input{
+	width: 350px;
+	background-color: #E4E5E8;
+	border-color: white;
+	font-size: 14px;
+	padding: 3px;
+}
+
+.center{
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
+
+#bannerpic{
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
+	object-position: 50% 30%;
+	padding-bottom: 5px;
+}
+
+#container{
+	margin: auto;
+	width: 1200px;
+	padding: 10px;
+	background-color: #D6E6F2;
+	--background-color: pink;
+	min-height: 94vh;
+}
+
+.query td{
+	width: 250px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	--padding-left: 50px;
+	--padding-right: 50px;
+	text-align: center;
+	font-size: 14px;
+}
+
+#nav{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #769FCD;
+	
+}
+
+.icon{
+	cursor: pointer;
+}
+
+.query table{
+	width: 70%;
+	margin: auto;
+}
+
+a{
+	text-decoration: None;
+}
+
+.signinreq{
+	filter: grayscale(100%);
+}
+
+#menu{
+	margin-left: 90%;
+}
+.menu td{
+	width: 250px;
+	text-align: right;
+	font-size: 18px;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+#footer1{
+	position:absolute;
+	bottom:10;
+	left:auto;
+	right: auto;
+	width: 1200px;
+	--margin-top: 104px;
+	background-color: #F7FBFC;
+	padding: 10px;
+	text-align: center;
+}
+#footer{
+	text-align: center;
+}

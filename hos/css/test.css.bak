@@ -1,0 +1,91 @@
+input{
+	width: 200px;
+	background-color: #E4E5E8;
+	border-color: white;
+	font-size: 14px;
+	padding: 3px;
+}
+
+.center{
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
+
+#bannerpic{
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
+	object-position: 50% 30%;
+	padding-bottom: 5px;
+}
+
+#container{
+	margin: auto;
+	width: 1200px;
+	padding: 10px;
+	--background-color: pink;
+	min-height: 94vh;
+}
+
+.query td{
+	padding: 10px;
+}
+
+select{
+	width: 150px;
+	padding: 5px;
+}
+
+#nav{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: pink;
+}
+
+a{
+	text-decoration: None;
+}
+
+.query button{
+	--width: 130px;
+}
+
+.fail button{
+	width: 80px;
+}
+th,tr{
+	padding: 10px;
+}
+
+.result th{
+	background-color: #009879;
+    color: #ffffff;
+}
+
+.result tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+background-color: pink;
+}
+
+a{
+text-decoration: None;
+}
+
+button{
+--width: 50px;
+padding: 3px;}
+
+#menu{
+margin-left: 90%;
+}
+
+.menu td{
+width: 250px;
+text-align: right;
+font-size: 18px;
+}
